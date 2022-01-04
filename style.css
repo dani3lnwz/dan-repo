@@ -1,0 +1,37 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    display: flex;
+}
+.ami{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    margin: 0;
+}
+.tmi{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+h1{
+    font-size: 50px;
+}
+.orange{
+    color: orange;
+}
+.width-half{
+    width: 50%;
+    padding-left: 5px;
+}
+.width-half img{
+    width: 80%;
+}
+.link-button{
+    background-image: linear-gradient(orange,tomato);
+    color: white;
+    border-radius: 5px;
+    padding: 10px 40px;
+    font-weight: 700;
+    text-decoration: none;
+}
